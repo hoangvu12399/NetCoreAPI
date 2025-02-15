@@ -1,0 +1,15 @@
+C:\học tập\PTPMQL\Net_Core_API\NewApp\bin\Debug\net9.0\NewApp.exe
+C:\học tập\PTPMQL\Net_Core_API\NewApp\bin\Debug\net9.0\NewApp.deps.json
+C:\học tập\PTPMQL\Net_Core_API\NewApp\bin\Debug\net9.0\NewApp.runtimeconfig.json
+C:\học tập\PTPMQL\Net_Core_API\NewApp\bin\Debug\net9.0\NewApp.dll
+C:\học tập\PTPMQL\Net_Core_API\NewApp\bin\Debug\net9.0\NewApp.pdb
+C:\học tập\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\học tập\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.AssemblyInfoInputs.cache
+C:\học tập\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.AssemblyInfo.cs
+C:\học tập\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.csproj.CoreCompileInputs.cache
+C:\học tập\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.sourcelink.json
+C:\học tập\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.dll
+C:\học tập\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\refint\NewApp.dll
+C:\học tập\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.pdb
+C:\học tập\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\NewApp.genruntimeconfig.cache
+C:\học tập\PTPMQL\Net_Core_API\NewApp\obj\Debug\net9.0\ref\NewApp.dll
