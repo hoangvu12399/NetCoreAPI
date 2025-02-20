@@ -1,0 +1,10 @@
+<form asp-action ="Index">
+    <label>Nhập tên sản phẩm</label>
+    <input type="text" name="ProductName" />
+    <label>Nhập giá sản phẩm</label>
+    <input type="text" name="UnitPrice" />
+    <label>Nhập số lượng sản phẩm</label>
+    <input type="text" name="Quantity" />
+    <input type="submit" value="Tính tiền sản phẩm" />
+</form>
+<h2>Tổng tiền sản phẩm của bạn là: @ViewBag.Message</h2>

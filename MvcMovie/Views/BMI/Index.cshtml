@@ -1,0 +1,8 @@
+<form asp-action="Index">
+    <label>Nhập cân nặng</label>
+    <input type="text" name="Weight" />
+    <label>Nhập chiều cao</label>
+    <input type="text" name="Height" />
+    <input type="submit" value="Tính BMI" />
+</form>
+<h2>Chỉ số BMI của bạn là: @ViewBag.Message</h2>
