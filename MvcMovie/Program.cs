@@ -1,7 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using MvcMovie.Data;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<ApplicationsDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ApplicationsDbContext") ?? throw new InvalidOperationException("Connection string 'ApplicationsDbContext' not found.")));
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.")));
 
 // Add services to the container.

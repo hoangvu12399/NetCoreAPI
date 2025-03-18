@@ -17,117 +17,129 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcMovie
 build_property.RootNamespace = MvcMovie
-build_property.ProjectDir = C:\hoctap\PTPMQL\MvcMovie\
+build_property.ProjectDir = C:\hoctap\NetCoreAPI-main\MvcMovie\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\hoctap\PTPMQL\MvcMovie
+build_property.MSBuildProjectDirectory = C:\hoctap\NetCoreAPI-main\MvcMovie
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/BMI/Index.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/BMI/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQk1JXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/DaiLies/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTGllc1xDcmVhdGUuY3NodG1s
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Daily/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/DaiLies/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTGllc1xEZWxldGUuY3NodG1s
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Daily/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/DaiLies/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTGllc1xEZXRhaWxzLmNzaHRtbA==
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Daily/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/DaiLies/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTGllc1xFZGl0LmNzaHRtbA==
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Daily/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/DaiLies/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTGllc1xJbmRleC5jc2h0bWw=
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Daily/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Employee/Index2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXgyLmNzaHRtbA==
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Employee/Welcome2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcV2VsY29tZTIuY3NodG1s
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Employee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/HelloWorld/Index.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Employee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/HelloWorld/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/HelloWorld/Welcome.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/HelloWorld/Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxXZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Hoadon/Index.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Hoadon/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hZG9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Home/Index.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Home/Privacy.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Person/Create.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Person/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Person/Delete.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Person/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Person/Edit.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Person/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Person/Index.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Person/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Person/Index3.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Person/Index3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4My5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Person/Index4.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Person/Index4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4NC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Person/Welcome3.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Person/Welcome3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXFdlbGNvbWUzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Shared/Error.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/SubjectCalculator/Index.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/SubjectCalculator/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdENhbGN1bGF0b3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/_ViewImports.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/_ViewStart.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/hoctap/PTPMQL/MvcMovie/Views/Shared/_Layout.cshtml]
+[C:/hoctap/NetCoreAPI-main/MvcMovie/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0uvum7rpp4

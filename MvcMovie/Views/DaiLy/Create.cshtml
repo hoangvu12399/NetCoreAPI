@@ -1,4 +1,4 @@
-@model MvcMovie.Models.DaiLy
+@model MvcMovie.Models.Daily
 
 @{
     ViewData["Title"] = "Create";
@@ -6,7 +6,7 @@
 
 <h1>Create</h1>
 
-<h4>DaiLy</h4>
+<h4>Daily</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -28,11 +28,6 @@
                 <span asp-validation-for="DiaChi" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NguoiDaiDien" class="control-label"></label>
-                <input asp-for="NguoiDaiDien" class="form-control" />
-                <span asp-validation-for="NguoiDaiDien" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="DienThoai" class="control-label"></label>
                 <input asp-for="DienThoai" class="form-control" />
                 <span asp-validation-for="DienThoai" class="text-danger"></span>
@@ -41,6 +36,11 @@
                 <label asp-for="MaHTPP" class="control-label"></label>
                 <input asp-for="MaHTPP" class="form-control" />
                 <span asp-validation-for="MaHTPP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TenHTPP" class="control-label"></label>
+                <input asp-for="TenHTPP" class="form-control" />
+                <span asp-validation-for="TenHTPP" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

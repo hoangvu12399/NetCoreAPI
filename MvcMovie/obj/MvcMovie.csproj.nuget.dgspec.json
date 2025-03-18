@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\hoctap\\PTPMQL\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\hoctap\\NetCoreAPI-main\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\hoctap\\PTPMQL\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\hoctap\\NetCoreAPI-main\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\hoctap\\PTPMQL\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\hoctap\\NetCoreAPI-main\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\hoctap\\PTPMQL\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "C:\\hoctap\\NetCoreAPI-main\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\hoctap\\PTPMQL\\MvcMovie\\obj\\",
+        "outputPath": "C:\\hoctap\\NetCoreAPI-main\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

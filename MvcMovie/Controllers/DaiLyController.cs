@@ -10,22 +10,22 @@ using MvcMovie.Models;
 
 namespace MvcMovie.Controllers
 {
-    public class DaiLiesController : Controller
+    public class DailyController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public DaiLiesController(ApplicationDbContext context)
+        public DailyController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: DaiLies
+        // GET: Daily
         public async Task<IActionResult> Index()
         {
-            return View(await _context.DaiLy.ToListAsync());
+            return View(await _context.Dailies.ToListAsync());
         }
 
-        // GET: DaiLies/Details/5
+        // GET: Daily/Details/5
         public async Task<IActionResult> Details(string id)
         {
             if (id == null)
@@ -33,39 +33,39 @@ namespace MvcMovie.Controllers
                 return NotFound();
             }
 
-            var daiLy = await _context.DaiLy
-                .FirstOrDefaultAsync(m => m.MaDaiLy == id);
-            if (daiLy == null)
+            var daily = await _context.Dailies
+                .FirstOrDefaultAsync(m => m.MaHTPP == id);
+            if (daily == null)
             {
                 return NotFound();
             }
 
-            return View(daiLy);
+            return View(daily);
         }
 
-        // GET: DaiLies/Create
+        // GET: Daily/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: DaiLies/Create
+        // POST: Daily/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaDaiLy,TenDaiLy,DiaChi,NguoiDaiDien,DienThoai,MaHTPP")] DaiLy daiLy)
+        public async Task<IActionResult> Create([Bind("MaDaiLy,TenDaiLy,DiaChi,DienThoai,MaHTPP,TenHTPP")] Daily daily)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(daiLy);
+                _context.Add(daily);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(daiLy);
+            return View(daily);
         }
 
-        // GET: DaiLies/Edit/5
+        // GET: Daily/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
@@ -73,22 +73,22 @@ namespace MvcMovie.Controllers
                 return NotFound();
             }
 
-            var daiLy = await _context.DaiLy.FindAsync(id);
-            if (daiLy == null)
+            var daily = await _context.Dailies.FindAsync(id);
+            if (daily == null)
             {
                 return NotFound();
             }
-            return View(daiLy);
+            return View(daily);
         }
 
-        // POST: DaiLies/Edit/5
+        // POST: Daily/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("MaDaiLy,TenDaiLy,DiaChi,NguoiDaiDien,DienThoai,MaHTPP")] DaiLy daiLy)
+        public async Task<IActionResult> Edit(string id, [Bind("MaDaiLy,TenDaiLy,DiaChi,DienThoai,MaHTPP,TenHTPP")] Daily daily)
         {
-            if (id != daiLy.MaDaiLy)
+            if (id != daily.MaHTPP)
             {
                 return NotFound();
             }
@@ -97,12 +97,12 @@ namespace MvcMovie.Controllers
             {
                 try
                 {
-                    _context.Update(daiLy);
+                    _context.Update(daily);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!DaiLyExists(daiLy.MaDaiLy))
+                    if (!DailyExists(daily.MaHTPP))
                     {
                         return NotFound();
                     }
@@ -113,10 +113,10 @@ namespace MvcMovie.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(daiLy);
+            return View(daily);
         }
 
-        // GET: DaiLies/Delete/5
+        // GET: Daily/Delete/5
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
@@ -124,34 +124,34 @@ namespace MvcMovie.Controllers
                 return NotFound();
             }
 
-            var daiLy = await _context.DaiLy
-                .FirstOrDefaultAsync(m => m.MaDaiLy == id);
-            if (daiLy == null)
+            var daily = await _context.Dailies
+                .FirstOrDefaultAsync(m => m.MaHTPP == id);
+            if (daily == null)
             {
                 return NotFound();
             }
 
-            return View(daiLy);
+            return View(daily);
         }
 
-        // POST: DaiLies/Delete/5
+        // POST: Daily/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            var daiLy = await _context.DaiLy.FindAsync(id);
-            if (daiLy != null)
+            var daily = await _context.Dailies.FindAsync(id);
+            if (daily != null)
             {
-                _context.DaiLy.Remove(daiLy);
+                _context.Dailies.Remove(daily);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool DaiLyExists(string id)
+        private bool DailyExists(string id)
         {
-            return _context.DaiLy.Any(e => e.MaDaiLy == id);
+            return _context.Dailies.Any(e => e.MaHTPP == id);
         }
     }
 }
