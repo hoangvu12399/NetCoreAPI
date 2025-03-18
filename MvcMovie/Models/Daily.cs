@@ -1,12 +1,17 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace MvcMovie.Models
 {
-    public class DaiLy
+    [Table("Daily")]
+    public class DaiLy 
     {
-        public string MaDaiLy { get; set; } = string.Empty;
-        public string TenDaiLy { get; set; } = string.Empty;
-        public string DiaChi { get; set; } = string.Empty;
-        public string NguoiDaiDien { get; set; } = string.Empty;
-        public string DienThoai { get; set; } = string.Empty;
-        public string MaHTPP { get; set; } = string.Empty;
+        [Key]
+        public required string MaDaiLy { get; set; } 
+        public required string TenDaiLy { get; set; }
+        public string? DiaChi { get; set; }
+        public string? NguoiDaiDien { get; set; }
+        public required string DienThoai { get; set; } 
+        public required string MaHTPP { get; set; } 
     }
 }

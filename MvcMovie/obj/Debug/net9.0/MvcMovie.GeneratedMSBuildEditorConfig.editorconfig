@@ -32,6 +32,26 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQk1JXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/hoctap/PTPMQL/MvcMovie/Views/DaiLies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTGllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hoctap/PTPMQL/MvcMovie/Views/DaiLies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTGllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hoctap/PTPMQL/MvcMovie/Views/DaiLies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTGllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hoctap/PTPMQL/MvcMovie/Views/DaiLies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTGllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hoctap/PTPMQL/MvcMovie/Views/DaiLies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTGllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/hoctap/PTPMQL/MvcMovie/Views/Employee/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXgyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

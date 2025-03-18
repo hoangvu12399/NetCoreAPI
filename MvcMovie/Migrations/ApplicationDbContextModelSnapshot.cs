@@ -22,6 +22,7 @@ namespace MvcMovie.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Address")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
@@ -33,7 +34,7 @@ namespace MvcMovie.Migrations
 
                     b.HasKey("PersonID");
 
-                    b.ToTable("Person");
+                    b.ToTable("Person", (string)null);
                 });
 #pragma warning restore 612, 618
         }
